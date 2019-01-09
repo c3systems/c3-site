@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://c3labs.io/</loc>
+    <loc>https://opennetsys.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://c3labs.io/categories/</loc>
+    <loc>https://opennetsys.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://c3labs.io/tags/</loc>
+    <loc>https://opennetsys.com/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C3 Labs - The C3 Protocol</title>
-    <link>https://c3labs.io/</link>
-    <description>Recent content on C3 Labs - The C3 Protocol</description>
+    <title>OpenNetSys - Building Open Network Systems for Web 3.0</title>
+    <link>https://opennetsys.com/</link>
+    <description>Recent content on OpenNetSys - Building Open Network Systems for Web 3.0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://c3labs.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://opennetsys.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
