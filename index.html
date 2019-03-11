@@ -117,7 +117,7 @@
           <div class="right">
             <h3>Interoperability</h3>
             <p>
-OpenNetSys functions as a layer 2 solution on multiple blockchains, helping create better dApps for Ethereum, EOS, etc.
+OpenNetSys functions as a layer 2 solution on multiple blockchains, helping create better dApps on existing platforms.
             </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ OpenNetSys functions as a layer 2 solution on multiple blockchains, helping crea
           <div class="right">
             <h3>Scalability</h3>
             <p>
-Each OpenNetSys dApp will operate on its own blockchain to allow to it to run independently of other dApps in the network, increasing throughput
+Each dApp will operate on its own chain to allow to it to run independently of other dApps in the network, increasing throughput
             </p>
           </div>
         </div>
@@ -145,7 +145,7 @@ Each OpenNetSys dApp will operate on its own blockchain to allow to it to run in
           <div class="right">
             <h3>Censor-resistance</h3>
             <p>
-Decentralized, censorship-resistant dApps involving messaging, bulletins, and news are now possible, offering a new world of freedom and potential
+Decentralized, censorship-resistant dApps involving messaging, bulletins, and news are also possible, offering a new world of freedom and potential
             </p>
           </div>
         </div>
@@ -159,7 +159,7 @@ Decentralized, censorship-resistant dApps involving messaging, bulletins, and ne
           <div class="right">
             <h3>Security</h3>
             <p>
-OpenNetSys’s Transparency Layer protects the network against bad actors and solves the halting problem
+The secured runtime environment protects the network against bad actors
             </p>
           </div>
         </div>
@@ -173,7 +173,7 @@ OpenNetSys’s Transparency Layer protects the network against bad actors and so
           <div class="right">
             <h3>Complexity</h3>
             <p>
-Developers can use popular libraries like Tensorflow or Torch, and can utilize databases like PostgreSQL and MongoDB, and even employ multiple software systems (e.g. an API + a database)
+Developers can use popular libraries like Tensorflow or Torch, and can utilize databases like PostgreSQL and MongoDB, and even employ multiple software systems working together
             </p>
           </div>
         </div>
@@ -187,12 +187,12 @@ Developers can use popular libraries like Tensorflow or Torch, and can utilize d
   <div class="inner-container">
     <div class="content">
       <div class="left">
-        <h3>How it works</h3>
+        <h3></h3>
       </div>
       <div class="right">
         <p>Current blockchain platforms have been built to solve only basic problems using smart contracts – so the underlying protocols can’t create the more advanced utility present in the centralized applications we use today.</p>
 
-        <p>The OpenNetSys platform lowers the barrier for developers to create blockchain-based solutions, while also giving them the ability to create more computationally complex, useful dApps. OpenNetSys is enabling the dApp revolution that everyone has been waiting for – but was impossible until now.</p>
+        <p>The OpenNetSys platform lowers the barrier for developers to create blockchain-based solutions, while also giving them the ability to create more computationally complex, useful dApps. OpenNetSys is enabling the dApp revolution that everyone has been waiting for.</p>
       </div>
     </div>
   </div>
@@ -204,7 +204,7 @@ Developers can use popular libraries like Tensorflow or Torch, and can utilize d
       <h3>Team</h3>
 
       <div class="team-intro">
-        <p>OpenNetSys’s founding team are blockchain developers and strategists that have implemented smart contract technologies for many major companies, including helping implement the first Token Curated Registry (TCR).</p>
+        <p>OpenNetSys' founding team are blockchain developers and strategists that have implemented smart contract technologies for many major companies, including helping implement the first Token Curated Registry (TCR).</p>
 
         <p>OpenNetSys is based in Los Angeles, CA</p>
       </div>
@@ -298,150 +298,6 @@ Developers can use popular libraries like Tensorflow or Torch, and can utilize d
   mapSimple.dragging.disable();
 </script>
 
-<section class="box faq" id="faq">
-  <div class="inner-container">
-    <div class="content">
-      <div class="title">
-        FAQ
-      </div>
-
-      <div class="items">
-        <dl>
-
-          
-          
-            <dt>How does OpenNetSys work?</dt>
-            <dd>OpenNetSys is a containerized blockchain technology for launching and executing complex applications free of artificial compute restrictions.</dd>
-          
-            <dt>Is OpenNetSys ready to use?</dt>
-            <dd>OpenNetSys is still in heavy development with a production stable release launch date goal of Q4 2019</dd>
-          
-            <dt>Is OpenNetSys a blockchain?</dt>
-            <dd>Yes, OpenNetSys is blockchain software technology which can be utilized as a Layer 2 or as a standalone chain.</dd>
-          
-            <dt>How does OpenNetSys work as a Layer 2?</dt>
-            <dd>OpenNetSys works as a Layer 2 by checkpointing the merkle root of it&#39;s blocks at a predefined interval to a Layer 1.</dd>
-          
-            <dt>How does OpenNetSys know that a state will be deterministic?</dt>
-            <dd>The developer of the dApp is responsible for creating deterministic states. A OpenNetSys node does not inherently know that a state will be deterministic however if the state is not deterministic then validators will never reach consensus and the transaction will fail.</dd>
-          
-            <dt>How does OpenNetSys prevent a validator from running a dApp transaction for forever?</dt>
-            <dd>OpenNetSys validators will broadcast transaction execution reports after processing a block. This transparency layer will give other validators insights to how long a transaction is expected to run. The first execution report will be generated by the dApp developers by running tests and benchmarks before submitting their dApp.</dd>
-          
-            <dt>How does OpenNetSys prevent DDOS attacks?</dt>
-            <dd>OpenNetSys validators will reject transactions from an account holder that does not have enough OpenNetSys coin to fund the transactions. This will prevent the transaction from making in it into the mempool.</dd>
-          
-            <dt>What is the max block size in OpenNetSys?</dt>
-            <dd>Block size and maximum number of transaction that be in a block is still TBD.</dd>
-          
-            <dt>What happens if a OpenNetSys validator can’t process the transaction because of hardware requirements?</dt>
-            <dd>The validator will have to skip that particular transaction. Validators will be grouped into groups with similar compute requirements (similar to AWS tiers).</dd>
-          
-            <dt>What if all validators can’t validate a block?</dt>
-            <dd>Only a subset of validator are required to validate the block. If less than 2/3 can&#39;t validate the block then the block is considered invalid and won&#39;t be part of the chain.</dd>
-          
-            <dt>Does OpenNetSys store event logs (like in Ethereum)?</dt>
-            <dd>Not currently. This feature is planned however.</dd>
-          
-            <dt>Does OpenNetSys store return data (like in Ethereum)?</dt>
-            <dd>Not currently. This feature is planned however.</dd>
-          
-            <dt>What determines the state transaction price in OpenNetSys?</dt>
-            <dd>The open market will determine the average price for a transaction given the historical reports for costs of executing transactions.</dd>
-          
-            <dt>How does OpenNetSys deal with governance?</dt>
-            <dd>OpenNetSys plans on having a TCR-like system for accepting OpenNetSys Improvement Proposals but the details are still TBD.</dd>
-          
-            <dt>What is a OpenNetSys state block?</dt>
-            <dd>A state block in OpenNetSys is a dApps own state chain. Every transaction or group of transaction processed by a dApp results in a new state block which added to the dApp state chain. The dApp state chain&#39;s merkle root becomes part of the main chain block.</dd>
-          
-            <dt>Where can I see code samples?</dt>
-            <dd>All code is open source and available on Github: https://github.com/opennetsys</dd>
-          
-            <dt>What is OpenNetSys licensed under?</dt>
-            <dd>OpenNetSys is licensed under the GNU AGPL v3.0 license.</dd>
-          
-            <dt>How does OpenNetSys compare to Docker?</dt>
-            <dd>OpenNetSys uses Docker containers for sandboxing and allowing developer to write smart contract business logic and any language they like.</dd>
-          
-            <dt>How does OpenNetSys compare to Polkadot?</dt>
-            <dd>OpenNetSys is not competing with Polkadot and OpenNetSys plans on launching as a parachain on Polkadot once the Polkadot network is live.</dd>
-          
-            <dt>How does OpenNetSys compare to Cosmos?</dt>
-            <dd>Cosmos is focusing on transfer of value, while OpenNetSys is providing a container runtime to be used with Polkadot.</dd>
-          
-            <dt>How does OpenNetSys compare to Tendermint?</dt>
-            <dd>Tendermint is a consensus algorithm while OpenNetSys is providing a container runtime to be used with Polkadot. Polkadot provides multiple consensus algorithm, including Tendermint.</dd>
-          
-            <dt>How does OpenNetSys compare to Golem?</dt>
-            <dd>Golem is focused on a marketplace for off-chain computation similar to render farms, while OpenNetSys is providing a container runtime to be used with Polkadot.</dd>
-          
-            <dt>How does OpenNetSys compare to Trubit?</dt>
-            <dd>Truebit is focused on off-chain WASM computation with dispute verification on-chain, while OpenNetSys is providing a container runtime to be used with Polkadot.</dd>
-          
-            <dt>How does OpenNetSys interoperate with other blockchains such as Ethereum and EOS?</dt>
-            <dd>OpenNetSys will utilize the Polkadot network of bridgechain to allow transfer of value between seperate chains.</dd>
-          
-            <dt>How does can machine learning libraries like Tensorflow be used in a OpenNetSys?</dt>
-            <dd>OpenNetSys&#39;s containerized runtime means that as a developer you can use any software systems you like so long the end state is reproducible in a deterministic fashion. This means that your machine learning model must be trained using seeded random number generators and not rely on dynamic variables like system time.</dd>
-          
-            <dt>What are the incentives for block producers on OpenNetSys?</dt>
-            <dd>Incentives will be transaction fees.</dd>
-          
-            <dt>Does a user have to pay for every transaction on OpenNetSys?</dt>
-            <dd>Yes, the user can pay for each transaction or pre-pay for resources in order to make transactions free for users.</dd>
-          
-            <dt>How does OpenNetSys compare to platforms using EVM or WASM?</dt>
-            <dd>OpenNetSys is providing a container runtime which as a developer means that you can use any language and software libraries you like. EVM and WASM require that the source code is compiled to their respective bytecode in order to be executed by the VM.</dd>
-          
-            <dt>Does OpenNetSys compile it&#39;s smart contracts to EVM or WASM?</dt>
-            <dd>No, OpenNetSys does not compile down it&#39;s smart contracts to bytecode for other platforms. OpenNetSys smart contracts are executed as container without compilation.</dd>
-          
-            <dt>How many nodes in the network execute the smart contracts on OpenNetSys?</dt>
-            <dd>2/3 of validators in the network must agree on the validity of a block for it to become comitted. These means that validators are incentives to run the transactions to verify the state.</dd>
-          
-            <dt>How does OpenNetSys as a Layer 2 compare to other Layer 2 solutions?</dt>
-            <dd>OpenNetSys as a layer 2 will checkpoint state to the Layer 1 (in a way similar to Loom Network). OpenNetSys plans on being Layer 1 agonistic.</dd>
-          
-            <dt>Is each dApp on OpenNetSys it&#39;s own blockchain?</dt>
-            <dd>No, each dApp is not an entirely new blockchain and does not have each own set of validators but as a developer you have the freedom to launch an entire parachain for your dApp if it makes sense.</dd>
-          
-            <dt>Are transactions executed on-chain or off-chain?</dt>
-            <dd>Transactions are executed by validators on-chain.</dd>
-          
-            <dt>How does OpenNetSys as a company make money?</dt>
-            <dd>OpenNetSys has an enterprise profit-generating branch to support the open source foundation branch. OpenNetSys does not plan on making money from a one-time token generation event because it&#39;s not sustainable as a business model.</dd>
-          
-            <dt>How do OpenNetSys coins work?</dt>
-            <dd>OpenNetSys coins will function as incentives for block producers to process transaction as well as to prevent DDoS flooding.</dd>
-          
-            <dt>Will OpenNetSys have a token sale?</dt>
-            <dd>Not in the near future.</dd>
-          
-            <dt>Are there block rewards in OpenNetSys?</dt>
-            <dd>This is TBD.</dd>
-          
-            <dt>When did OpenNetSys start</dt>
-            <dd>OpenNetSys initial planning and development started in July 2017.</dd>
-          
-
-        </dl>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<script>
-  var dts = document.querySelectorAll('.faq dt')
-  for (var i = 0; i < dts.length; i++) {
-    var dt = dts[i]
-    dt.addEventListener('click', function(event) {
-      event.preventDefault()
-      event.target.classList.toggle('close')
-    })
-  }
-</script>
 
 <section class="box signup" id="signup">
   <div class="inner-container">
@@ -477,8 +333,7 @@ Developers can use popular libraries like Tensorflow or Torch, and can utilize d
       </div>
       <div class="social">
         <a href="https://twitter.com/OpenNetSys" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-        <a href="https://t.me/OpenNetSys" rel="noopener noreferrer" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
-        <a href="https://www.reddit.com/r/OpenNetSys/" rel="noopener noreferrer" target="_blank"><i class="fab fa-reddit"></i> Reddit</a>
+        
         <a href="https://www.linkedin.com/company/OpenNetSys/" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         <a href="https://github.com/opennetsys" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i> Github</a>
         <a href="mailto:info@opennetsys.com" rel="noopener noreferrer" target="_blank"><i class="far fa-envelope"></i> Email</a>
